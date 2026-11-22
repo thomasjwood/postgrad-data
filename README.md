@@ -7,6 +7,13 @@ unit-level public-use files of NSF/NCSES's
 Counts are all graduate students (master's + doctoral, full- + part-time) enrolled each fall at U.S. institutions.
 Psychology is reported alongside, since NSF treats it as its own broad field.
 
+![Graduate students by social science discipline, 1975-2025](figures/grad_students_by_discipline.png)
+
+`R/plot_disciplines.R` draws the figure (`Rscript R/plot_disciplines.R` from the repo root; needs dplyr,
+tidyr, readr, ggplot2, ragg and the Public Sans font). Dashed lines are the estimated split of NSF's pre-2017
+political science code (see below). Criminology and criminal justice are left out: they sat inside "other
+social sciences" until 2017, and criminology only got its own code in 2020.
+
 ## Outputs (`output/`)
 
 | File | Contents |
