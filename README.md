@@ -27,8 +27,10 @@ Psychology is reported alongside, since NSF treats it as its own broad field.
 | `gss_totals_by_year_and_code.csv` | Those counts summed by year and GSS field code, all fields |
 | `ipeds_completions_polisci_fields.csv` | IPEDS master's and doctoral completions by institution and year, 1980 and 1984-2024, in political science, IR, public policy and public administration |
 
-Race/ethnicity, financial support and postdoc detail are not in `gss_units/`. They are in the raw NSF files,
-which `scripts/download_puf.sh` fetches.
+Race/ethnicity, financial support and postdoc detail are not in `gss_units/`. They are in the raw NSF files:
+one zip per year, unmodified, attached to the
+[gss-puf-1972-2025 release](https://github.com/thomasjwood/postgrad-data/releases/tag/gss-puf-1972-2025).
+`scripts/download_puf.sh` fetches the same files from NSF.
 
 ## Validation
 
