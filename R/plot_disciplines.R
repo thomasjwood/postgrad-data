@@ -12,10 +12,11 @@ wide <- read_csv("output/social_science_grad_students_wide.csv", show_col_types 
 harm <- read_csv("output/polisci_harmonized.csv", show_col_types = FALSE)
 
 # fields carved out of NSF's pre-2017 political science code: estimated before 2017, reported from 2017
+# international relations counts as political science
 split_fields <- harm |>
+  mutate(polisci_ir = political_science + international_relations) |>
   select(year,
-         `Political science` = political_science,
-         `International relations` = international_relations,
+         `Political science (incl. IR)` = polisci_ir,
          `Public policy` = public_policy,
          `Public administration` = public_administration) |>
   pivot_longer(-year, names_to = "field", values_to = "n") |>
@@ -38,7 +39,7 @@ reported <- wide |>
   pivot_longer(-year, names_to = "field", values_to = "n") |>
   mutate(status = "Reported by NSF")
 
-field_order <- c("Political science", "International relations", "Public policy", "Public administration",
+field_order <- c("Political science (incl. IR)", "Public policy", "Public administration",
                  "Economics", "Agricultural economics", "Sociology", "Anthropology",
                  "Geography", "Linguistics")
 
@@ -63,7 +64,7 @@ p <- ggplot(d, aes(year, k)) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = line_col, size = 6.5, stroke = .4) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = "white", size = 6, stroke = 0) +
   geom_text(data = lab_pts, aes(label = lab), colour = line_col, size = 2.4, family = "Public Sans") +
-  facet_wrap(~field, ncol = 5) +
+  facet_wrap(~field, ncol = 3) +
   scale_x_continuous(breaks = c(1980, 2000, 2020), expand = expansion(mult = .06)) +
   scale_y_continuous(expand = expansion(mult = .18)) +
   scale_linetype_manual(values = c("Estimated from IPEDS split" = "22", "Reported by NSF" = "solid"),
@@ -85,5 +86,5 @@ p <- ggplot(d, aes(year, k)) +
         legend.key.width = unit(1.6, "lines"))
 
 dir.create("figures", showWarnings = FALSE)
-ggsave("figures/grad_students_by_discipline.png", p, width = 11, height = 6.2, dpi = 300,
+ggsave("figures/grad_students_by_discipline.png", p, width = 10, height = 7.2, dpi = 300,
        device = ragg::agg_png, bg = "white")
