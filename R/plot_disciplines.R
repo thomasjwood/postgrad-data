@@ -62,7 +62,7 @@ p <- ggplot(d, aes(year, k)) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = line_col, size = 6.5, stroke = .4) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = "white", size = 6, stroke = 0) +
   geom_text(data = lab_pts, aes(label = lab), colour = line_col, size = 2.4, family = "Public Sans") +
-  facet_wrap(~field, ncol = 4, scales = "free_y") +
+  facet_wrap(~field, ncol = 4) +
   scale_x_continuous(breaks = c(1980, 2000, 2020), expand = expansion(mult = .06)) +
   scale_y_continuous(expand = expansion(mult = .18)) +
   scale_linetype_manual(values = c("Estimated from IPEDS split" = "22", "Reported by NSF" = "solid"),
