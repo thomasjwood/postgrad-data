@@ -1,0 +1,574 @@
+year,field,n
+1972,Agricultural economics,1426
+1972,Anthropology,4930
+1972,Economics,9305
+1972,Geography,2769
+1972,History & philosophy of science,383
+1972,Linguistics,2195
+1972,Other social sciences,889
+1972,Political science,13058
+1972,Sociology,8777
+1972,Sociology/anthropology (combined),1301
+1973,Agricultural economics,1615
+1973,Anthropology,5253
+1973,Economics,9567
+1973,Geography,2750
+1973,History & philosophy of science,377
+1973,Linguistics,1620
+1973,Other social sciences,2868
+1973,Political science,12031
+1973,Sociology,7476
+1973,Sociology/anthropology (combined),894
+1974,Agricultural economics,1714
+1974,Anthropology,5744
+1974,Economics,9915
+1974,Geography,2831
+1974,History & philosophy of science,287
+1974,Linguistics,1885
+1974,Other social sciences,7984
+1974,Political science,16391
+1974,Sociology,8573
+1974,Sociology/anthropology (combined),1224
+1975,Agricultural economics,2105
+1975,Anthropology,6632
+1975,Economics,12025
+1975,Geography,3609
+1975,History & philosophy of science,303
+1975,Linguistics,2653
+1975,Other social sciences,12695
+1975,Political science,26323
+1975,Sociology,9905
+1975,Sociology/anthropology (combined),1523
+1976,Agricultural economics,2176
+1976,Anthropology,6622
+1976,Economics,11837
+1976,Geography,3706
+1976,History & philosophy of science,322
+1976,Linguistics,2844
+1976,Other social sciences,13025
+1976,Political science,26002
+1976,Sociology,9319
+1976,Sociology/anthropology (combined),1336
+1977,Agricultural economics,2219
+1977,Anthropology,6728
+1977,Economics,11992
+1977,Geography,3375
+1977,History & philosophy of science,300
+1977,Linguistics,2668
+1977,Other social sciences,13366
+1977,Political science,27134
+1977,Sociology,8909
+1977,Sociology/anthropology (combined),1367
+1978,Agricultural economics,2251
+1978,Anthropology,6306
+1978,Economics,11827
+1978,Geography,3250
+1978,History & philosophy of science,281
+1978,Linguistics,2390
+1978,Other social sciences,13455
+1978,Political science,26166
+1978,Sociology,7928
+1978,Sociology/anthropology (combined),1234
+1979,Agricultural economics,2221
+1979,Anthropology,6343
+1979,Economics,12065
+1979,Geography,3043
+1979,History & philosophy of science,265
+1979,Linguistics,3063
+1979,Other social sciences,13557
+1979,Political science,30050
+1979,Sociology,8197
+1979,Sociology/anthropology (combined),1215
+1980,Agricultural economics,2343
+1980,Anthropology,6322
+1980,Economics,13058
+1980,Geography,3204
+1980,History & philosophy of science,280
+1980,Linguistics,3007
+1980,Other social sciences,13014
+1980,Political science,30375
+1980,Sociology,8045
+1980,Sociology/anthropology (combined),1183
+1981,Agricultural economics,2262
+1981,Anthropology,6118
+1981,Economics,13245
+1981,Geography,3187
+1981,History & philosophy of science,248
+1981,Linguistics,3139
+1981,Other social sciences,11738
+1981,Political science,30026
+1981,Sociology,7864
+1981,Sociology/anthropology (combined),1083
+1982,Agricultural economics,2267
+1982,Anthropology,5948
+1982,Economics,13629
+1982,Geography,3166
+1982,History & philosophy of science,256
+1982,Linguistics,2803
+1982,Other social sciences,10732
+1982,Political science,29232
+1982,Sociology,7315
+1982,Sociology/anthropology (combined),1097
+1983,Agricultural economics,2295
+1983,Anthropology,5644
+1983,Economics,12929
+1983,Geography,3060
+1983,History & philosophy of science,253
+1983,Linguistics,3022
+1983,Other social sciences,8568
+1983,Political science,27417
+1983,Sociology,6997
+1983,Sociology/anthropology (combined),1152
+1984,Agricultural economics,2279
+1984,Anthropology,5590
+1984,Economics,12507
+1984,Geography,3035
+1984,History & philosophy of science,274
+1984,Linguistics,3160
+1984,Other social sciences,9310
+1984,Political science,25570
+1984,Sociology,6812
+1984,Sociology/anthropology (combined),1024
+1985,Agricultural economics,2268
+1985,Anthropology,5631
+1985,Economics,12430
+1985,Geography,2936
+1985,History & philosophy of science,272
+1985,Linguistics,3055
+1985,Other social sciences,9131
+1985,Political science,26621
+1985,Sociology,6637
+1985,Sociology/anthropology (combined),983
+1986,Agricultural economics,2248
+1986,Anthropology,5805
+1986,Economics,12103
+1986,Geography,3055
+1986,History & philosophy of science,266
+1986,Linguistics,3109
+1986,Other social sciences,8923
+1986,Political science,27091
+1986,Sociology,6565
+1986,Sociology/anthropology (combined),988
+1987,Agricultural economics,2203
+1987,Anthropology,5835
+1987,Economics,11998
+1987,Geography,3223
+1987,History & philosophy of science,294
+1987,Linguistics,3282
+1987,Other social sciences,9033
+1987,Political science,27429
+1987,Sociology,7026
+1987,Sociology/anthropology (combined),942
+1988,Agricultural economics,2259
+1988,Anthropology,5945
+1988,Economics,12036
+1988,Geography,3208
+1988,History & philosophy of science,288
+1988,Linguistics,3243
+1988,Other social sciences,8870
+1988,Political science,27723
+1988,Sociology,7117
+1988,Sociology/anthropology (combined),960
+1989,Agricultural economics,2276
+1989,Anthropology,6128
+1989,Economics,12139
+1989,Geography,3479
+1989,History & philosophy of science,304
+1989,Linguistics,3286
+1989,Other social sciences,8952
+1989,Political science,29194
+1989,Sociology,7405
+1989,Sociology/anthropology (combined),988
+1990,Agricultural economics,2273
+1990,Anthropology,6479
+1990,Economics,12326
+1990,Geography,3530
+1990,History & philosophy of science,331
+1990,Linguistics,3404
+1990,Other social sciences,10071
+1990,Political science,30582
+1990,Sociology,7801
+1990,Sociology/anthropology (combined),1164
+1991,Agricultural economics,2364
+1991,Anthropology,6731
+1991,Economics,12707
+1991,Geography,3760
+1991,History & philosophy of science,337
+1991,Linguistics,3425
+1991,Other social sciences,10437
+1991,Political science,31707
+1991,Sociology,8393
+1991,Sociology/anthropology (combined),899
+1992,Agricultural economics,2522
+1992,Anthropology,7123
+1992,Economics,13252
+1992,Geography,4102
+1992,History & philosophy of science,360
+1992,Linguistics,3277
+1992,Other social sciences,11364
+1992,Political science,33797
+1992,Sociology,9011
+1992,Sociology/anthropology (combined),979
+1993,Agricultural economics,2415
+1993,Anthropology,7361
+1993,Economics,13214
+1993,Geography,4378
+1993,History & philosophy of science,369
+1993,Linguistics,3321
+1993,Other social sciences,12283
+1993,Political science,35076
+1993,Sociology,9425
+1993,Sociology/anthropology (combined),935
+1994,Agricultural economics,2289
+1994,Anthropology,7665
+1994,Economics,12913
+1994,Geography,4502
+1994,History & philosophy of science,387
+1994,Linguistics,3279
+1994,Other social sciences,13286
+1994,Political science,34317
+1994,Sociology,9498
+1994,Sociology/anthropology (combined),987
+1995,Agricultural economics,2338
+1995,Anthropology,7693
+1995,Economics,12673
+1995,Geography,4371
+1995,History & philosophy of science,401
+1995,Linguistics,3194
+1995,Other social sciences,13962
+1995,Political science,34298
+1995,Sociology,9564
+1995,Sociology/anthropology (combined),941
+1996,Agricultural economics,2117
+1996,Anthropology,7773
+1996,Economics,12080
+1996,Geography,4331
+1996,History & philosophy of science,409
+1996,Linguistics,3156
+1996,Other social sciences,15169
+1996,Political science,33252
+1996,Sociology,9425
+1996,Sociology/anthropology (combined),923
+1997,Agricultural economics,2043
+1997,Anthropology,7560
+1997,Economics,11097
+1997,Geography,4287
+1997,History & philosophy of science,443
+1997,Linguistics,3068
+1997,Other social sciences,15143
+1997,Political science,32083
+1997,Sociology,9413
+1997,Sociology/anthropology (combined),948
+1998,Agricultural economics,1995
+1998,Anthropology,7577
+1998,Economics,10701
+1998,Geography,4326
+1998,History & philosophy of science,508
+1998,Linguistics,2935
+1998,Other social sciences,15268
+1998,Political science,30828
+1998,Sociology,9058
+1998,Sociology/anthropology (combined),857
+1999,Agricultural economics,2014
+1999,Anthropology,7633
+1999,Economics,10562
+1999,Geography,4250
+1999,History & philosophy of science,557
+1999,Linguistics,2799
+1999,Other social sciences,16090
+1999,Political science,31372
+1999,Sociology,8966
+1999,Sociology/anthropology (combined),741
+2000,Agricultural economics,2079
+2000,Anthropology,7626
+2000,Economics,10748
+2000,Geography,4036
+2000,History & philosophy of science,532
+2000,Linguistics,2674
+2000,Other social sciences,15104
+2000,Political science,31131
+2000,Sociology,8652
+2000,Sociology/anthropology (combined),745
+2001,Agricultural economics,2161
+2001,Anthropology,7491
+2001,Economics,11408
+2001,Geography,4304
+2001,History & philosophy of science,571
+2001,Linguistics,2744
+2001,Other social sciences,15578
+2001,Political science,31805
+2001,Sociology,8812
+2001,Sociology/anthropology (combined),808
+2002,Agricultural economics,2187
+2002,Anthropology,7481
+2002,Economics,12009
+2002,Geography,4383
+2002,History & philosophy of science,663
+2002,Linguistics,2875
+2002,Other social sciences,16018
+2002,Political science,34934
+2002,Sociology,8946
+2002,Sociology/anthropology (combined),719
+2003,Agricultural economics,2318
+2003,Anthropology,7789
+2003,Economics,12316
+2003,Geography,4721
+2003,History & philosophy of science,737
+2003,Linguistics,3028
+2003,Other social sciences,17440
+2003,Political science,36880
+2003,Sociology,9127
+2003,Sociology/anthropology (combined),773
+2004,Agricultural economics,2195
+2004,Anthropology,7826
+2004,Economics,12318
+2004,Geography,4809
+2004,History & philosophy of science,994
+2004,Linguistics,2941
+2004,Other social sciences,17513
+2004,Political science,39023
+2004,Sociology,8874
+2004,Sociology/anthropology (combined),839
+2005,Agricultural economics,2127
+2005,Anthropology,7750
+2005,Economics,11805
+2005,Geography,4800
+2005,History & philosophy of science,965
+2005,Linguistics,3187
+2005,Other social sciences,18147
+2005,Political science,40780
+2005,Sociology,9018
+2005,Sociology/anthropology (combined),848
+2006,Agricultural economics,2158
+2006,Anthropology,8150
+2006,Economics,12132
+2006,Geography,4750
+2006,History & philosophy of science,968
+2006,Linguistics,3074
+2006,Other social sciences,19459
+2006,Political science,41784
+2006,Sociology,9035
+2006,Sociology/anthropology (combined),837
+2007,Agricultural economics,1989
+2007,Anthropology,8129
+2007,Economics,12597
+2007,Geography,4660
+2007,History & philosophy of science,1054
+2007,Linguistics,2879
+2007,Other social sciences,20169
+2007,Political science,41349
+2007,Sociology,9642
+2007,Sociology/anthropology (combined),682
+2008,Agricultural economics,2132
+2008,Anthropology,8333
+2008,Economics,12971
+2008,Geography,4745
+2008,History & philosophy of science,1177
+2008,Linguistics,3095
+2008,Other social sciences,19405
+2008,Political science,40871
+2008,Sociology,10002
+2008,Sociology/anthropology (combined),653
+2009,Agricultural economics,2222
+2009,Anthropology,8359
+2009,Economics,13993
+2009,Geography,4810
+2009,History & philosophy of science,1006
+2009,Linguistics,3170
+2009,Other social sciences,20034
+2009,Political science,43919
+2009,Sociology,9731
+2009,Sociology/anthropology (combined),576
+2010,Agricultural economics,2180
+2010,Anthropology,8528
+2010,Economics,14317
+2010,Geography,5059
+2010,History & philosophy of science,705
+2010,Linguistics,3132
+2010,Other social sciences,20042
+2010,Political science,45045
+2010,Sociology,9883
+2010,Sociology/anthropology (combined),329
+2011,Agricultural economics,2095
+2011,Anthropology,8406
+2011,Economics,14920
+2011,Geography,5188
+2011,History & philosophy of science,597
+2011,Linguistics,3219
+2011,Other social sciences,17617
+2011,Political science,49660
+2011,Sociology,9671
+2011,Sociology/anthropology (combined),288
+2012,Agricultural economics,2045
+2012,Anthropology,8247
+2012,Economics,14959
+2012,Geography,5016
+2012,History & philosophy of science,508
+2012,Linguistics,3256
+2012,Other social sciences,16126
+2012,Political science,48855
+2012,Sociology,8887
+2012,Sociology/anthropology (combined),270
+2013,Agricultural economics,1916
+2013,Anthropology,8172
+2013,Economics,14819
+2013,Geography,4891
+2013,History & philosophy of science,391
+2013,Linguistics,3509
+2013,Other social sciences,15981
+2013,Political science,48411
+2013,Sociology,8960
+2013,Sociology/anthropology (combined),228
+2014,Agricultural economics,1931
+2014,Anthropology,7955
+2014,Economics,14604
+2014,Geography,4810
+2014,History & philosophy of science,371
+2014,Linguistics,3489
+2014,Other social sciences,16378
+2014,Political science,47370
+2014,Sociology,8637
+2014,Sociology/anthropology (combined),197
+2015,Agricultural economics,2056
+2015,Anthropology,7625
+2015,Economics,14299
+2015,Geography,4434
+2015,History & philosophy of science,379
+2015,Linguistics,3370
+2015,Other social sciences,16283
+2015,Political science,45781
+2015,Sociology,8272
+2015,Sociology/anthropology (combined),207
+2016,Agricultural economics,1756
+2016,Anthropology,7309
+2016,Economics,14488
+2016,Geography,4315
+2016,History & philosophy of science,379
+2016,Linguistics,3149
+2016,Other social sciences,15360
+2016,Political science,45213
+2016,Sociology,8023
+2016,Sociology/anthropology (combined),208
+2017,Agricultural economics,1678
+2017,Anthropology,6925
+2017,Criminal justice,4407
+2017,Economics,13069
+2017,Geography,4552
+2017,History & philosophy of science,260
+2017,Human development,2034
+2017,International relations,7153
+2017,Linguistics,2883
+2017,Other social sciences,9816
+2017,Political science,8588
+2017,Public policy,6952
+2017,Sociology,7969
+2018,Agricultural economics,1698
+2018,Anthropology,6773
+2018,Criminal justice,5169
+2018,Economics,13344
+2018,Geography,4566
+2018,History & philosophy of science,301
+2018,Human development,2122
+2018,International relations,7265
+2018,Linguistics,2723
+2018,Other social sciences,9982
+2018,Political science,8317
+2018,Public policy,8202
+2018,Sociology,7523
+2019,Agricultural economics,1506
+2019,Anthropology,6598
+2019,Criminal justice,5817
+2019,Economics,14129
+2019,Geography,4401
+2019,History & philosophy of science,289
+2019,Human development,2070
+2019,International relations,7070
+2019,Linguistics,2769
+2019,Other social sciences,9921
+2019,Political science,8385
+2019,Public policy,8711
+2019,Sociology,7333
+2020,Agricultural economics,1242
+2020,Anthropology,6463
+2020,"Area, ethnic & gender studies",5124
+2020,Criminal justice,6662
+2020,Criminology,1626
+2020,Economics,14073
+2020,Geography,4397
+2020,International relations,7730
+2020,Linguistics,2850
+2020,Other social sciences,2128
+2020,Political science,8438
+2020,Public policy,8899
+2020,Sociology,7409
+2020,Urban studies,1312
+2021,Agricultural economics,1194
+2021,Anthropology,6421
+2021,"Area, ethnic & gender studies",5093
+2021,Criminal justice,6829
+2021,Criminology,1580
+2021,Economics,15148
+2021,Geography,4876
+2021,International relations,8782
+2021,Linguistics,2840
+2021,Other social sciences,2404
+2021,Political science,8602
+2021,Public policy,10030
+2021,Sociology,7206
+2021,Urban studies,1218
+2022,Agricultural economics,901
+2022,Anthropology,6220
+2022,"Area, ethnic & gender studies",4979
+2022,Criminal justice,6613
+2022,Criminology,1502
+2022,Economics,14935
+2022,Geography,4354
+2022,International relations,8164
+2022,Linguistics,2854
+2022,Other social sciences,2655
+2022,Political science,8235
+2022,Public policy,9391
+2022,Sociology,6845
+2022,Urban studies,1069
+2023,Agricultural economics,740
+2023,Anthropology,5796
+2023,"Area, ethnic & gender studies",4920
+2023,Criminal justice,6424
+2023,Criminology,1477
+2023,Economics,14559
+2023,Geography,3837
+2023,International relations,7473
+2023,Linguistics,2727
+2023,Other social sciences,4214
+2023,Political science,7684
+2023,Public policy,7370
+2023,Sociology,6404
+2023,Urban studies,966
+2024,Agricultural economics,708
+2024,Anthropology,5763
+2024,"Area, ethnic & gender studies",4793
+2024,Criminal justice,6432
+2024,Criminology,1457
+2024,Economics,14500
+2024,Geography,3478
+2024,International relations,7316
+2024,Linguistics,2552
+2024,Other social sciences,4271
+2024,Political science,7437
+2024,Public policy,7154
+2024,Sociology,6311
+2024,Urban studies,813
+2025,Agricultural economics,550
+2025,Anthropology,5760
+2025,"Area, ethnic & gender studies",4556
+2025,Criminal justice,6560
+2025,Criminology,1446
+2025,Economics,14297
+2025,Geography,3280
+2025,International relations,7634
+2025,Linguistics,2335
+2025,Other social sciences,4673
+2025,Political science,7377
+2025,Public policy,6874
+2025,Sociology,5977
+2025,Urban studies,892
