@@ -3,7 +3,10 @@ import pandas as pd
 
 w = pd.read_csv("output/social_science_grad_students_wide.csv", index_col=0)
 w["Criminology & criminal justice"] = w[["Criminal justice", "Criminology"]].sum(axis=1, min_count=1)
-cols = ["Political science", "International relations", "Public policy", "Economics",
+w = w.rename(columns={"Political science": "Political science (as reported)"})
+h = pd.read_csv("output/polisci_harmonized.csv", index_col=0)
+w["Political science (harmonized)"] = h.political_science.round()
+cols = ["Political science (harmonized)", "Political science (as reported)", "International relations", "Public policy", "Economics",
         "Agricultural economics", "Sociology", "Anthropology", "Sociology/anthropology (combined)",
         "Geography", "Linguistics", "Criminology & criminal justice", "Area, ethnic & gender studies",
         "Urban studies", "History & philosophy of science", "Human development",
@@ -22,18 +25,23 @@ notes = {
          "they got their own codes.",
     "e": "2020: area/ethnic/gender studies, criminology and urban studies split from \"Other\"; history and "
          "philosophy of science folded into \"Other\"; human development moved to psychology.",
+    "h": "Political science (harmonized): through 2016, each institution's combined political science/IR/public "
+         "policy/public administration count is split by its IPEDS master's and doctoral completions in those four "
+         "fields (completions in the five years from that fall, master's weighted 2, doctorates 6). Tested on "
+         "2017&ndash;2025, where NSF reports the fields separately, the national estimate is within about 2% each "
+         "year. From 2017 it is NSF's reported count. Before 1984 it relies on IPEDS 1980 and 1984 only.",
 }
 
 def fmt(v):
     return "" if pd.isna(v) else f"{int(v):,}"
 
 short = {"Sociology/anthropology (combined)": "Soc./anthro. (combined)"}
-head = "".join(f"<th>{short.get(c, c)}</th>" for c in cols)
+head = "".join(f"<th>{short.get(c, c)}{"<sup>h</sup>" if "harmonized" in c else ""}</th>" for c in cols)
 body = []
 for y, r in w.iterrows():
     cls = ' class="brk"' if y in breaks and y != 1975 else ""
     mark = f"<sup>{breaks[y]}</sup>" if y in breaks else ""
-    tds = "".join(f'<td class="{"tot" if c.startswith("Social sciences") else ""}">{fmt(r[c])}</td>' for c in cols)
+    tds = "".join(f'<td class="{"tot" if c.startswith(("Social sciences", "Political science (harm")) else ""}">{fmt(r[c])}</td>' for c in cols)
     body.append(f"<tr{cls}><th>{y}{mark}</th>{tds}</tr>")
 
 html = f"""<!doctype html><html><head><meta charset="utf-8">
