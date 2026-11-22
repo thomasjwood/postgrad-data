@@ -30,16 +30,17 @@ bridge <- split_fields |>
   mutate(status = "Estimated from IPEDS split")
 
 # criminology/criminal justice is left out: it sat inside "other social sciences" until 2017 and
-# criminology only got its own code in 2020, so its series is short and broken
+# criminology only got its own code in 2020, so its series is short and broken.
+# psychology is left out too (NSF treats it as its own broad field, and it dwarfs the rest)
 reported <- wide |>
   select(year, Economics, `Agricultural economics`, Sociology, Anthropology, Geography,
-         Linguistics, Psychology) |>
+         Linguistics) |>
   pivot_longer(-year, names_to = "field", values_to = "n") |>
   mutate(status = "Reported by NSF")
 
 field_order <- c("Political science", "International relations", "Public policy", "Public administration",
                  "Economics", "Agricultural economics", "Sociology", "Anthropology",
-                 "Geography", "Linguistics", "Psychology")
+                 "Geography", "Linguistics")
 
 d <- bind_rows(split_fields, bridge, reported) |>
   filter(year >= 1975, !is.na(n)) |>   # 1972-74 surveyed fewer institutions
@@ -62,7 +63,7 @@ p <- ggplot(d, aes(year, k)) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = line_col, size = 6.5, stroke = .4) +
   geom_point(data = lab_pts, shape = 21, fill = "white", colour = "white", size = 6, stroke = 0) +
   geom_text(data = lab_pts, aes(label = lab), colour = line_col, size = 2.4, family = "Public Sans") +
-  facet_wrap(~field, ncol = 4) +
+  facet_wrap(~field, ncol = 5) +
   scale_x_continuous(breaks = c(1980, 2000, 2020), expand = expansion(mult = .06)) +
   scale_y_continuous(expand = expansion(mult = .18)) +
   scale_linetype_manual(values = c("Estimated from IPEDS split" = "22", "Reported by NSF" = "solid"),
@@ -84,5 +85,5 @@ p <- ggplot(d, aes(year, k)) +
         legend.key.width = unit(1.6, "lines"))
 
 dir.create("figures", showWarnings = FALSE)
-ggsave("figures/grad_students_by_discipline.png", p, width = 10, height = 7.2, dpi = 300,
+ggsave("figures/grad_students_by_discipline.png", p, width = 11, height = 6.2, dpi = 300,
        device = ragg::agg_png, bg = "white")

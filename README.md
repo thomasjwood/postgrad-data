@@ -11,8 +11,9 @@ Psychology is reported alongside, since NSF treats it as its own broad field.
 
 `R/plot_disciplines.R` draws the figure (`Rscript R/plot_disciplines.R` from the repo root; needs dplyr,
 tidyr, readr, ggplot2, ragg and the Public Sans font). Dashed lines are the estimated split of NSF's pre-2017
-political science code (see below). Criminology and criminal justice are left out: they sat inside "other
-social sciences" until 2017, and criminology only got its own code in 2020.
+political science code (see below). Psychology is left out (NSF treats it as its own broad field). Criminology and
+criminal justice are left out too: they sat inside "other social sciences" until 2017, and criminology only got
+its own code in 2020. All panels share one y axis.
 
 ## Outputs (`output/`)
 
